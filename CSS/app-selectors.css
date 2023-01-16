@@ -1,0 +1,35 @@
+/* universal selector is there, but not very useful as everything will have the same property!
+* {
+    background-color: cyan;
+} */
+
+h1,
+h2 {
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    font-size: 30px;
+    background-color: aliceblue;
+}
+
+a {
+    font-style: oblique;
+}
+
+/* we could use ids to speficially apply styles to specific elements even if there were many of those sort for e.g. style a specifc button outof 10 buttons */
+#firstvotebutton {
+    background-color: brown;
+}
+
+/* applying styles to span actually applied to everything including the 'posted by' paras, we only want this for tags, so we use class  */
+span {
+    background-color: rgb(220, 237, 245);
+}
+
+.tag {
+    background-color: crimson;
+    color: azure;
+    font-size: 20px;
+}

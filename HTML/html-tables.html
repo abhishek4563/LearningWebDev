@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson on tables</title>
+</head>
+
+<body>
+    <h1>heavy birds</h1>
+    <table>
+        <!-- thead is for specifying table header, tbody will be the start of the body of the table a SEPARATE part than header -->
+        <thead>
+            <tr>
+                <!-- even th, or table headings are defined within tr or table row, which in turin could be inside thead -->
+                <th rowspan="2">Animal</th>
+                <th colspan="2">Weight</th>
+                <!-- rowspan and column span could be used smartly to define tables that seem equivalnt to merge cells in excel/google sheet -->
+                <th rowspan="2">region</th>
+                <th rowspan="2">extinction status</th>
+            </tr>
+            <tr>
+                <th>kg</th>
+                <th>lb</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ostrich</td>
+                <td>104</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>ostrich</td>
+                <td>230</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

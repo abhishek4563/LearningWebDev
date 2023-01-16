@@ -1,0 +1,17 @@
+title {
+    color: blue;
+}
+
+h2 {
+    color: darkorange;
+}
+
+button {
+    color: rgb(127, 129, 255);
+    background-color: rgb(255, 196, 223);
+}
+
+p {
+    color: brown;
+    background-color: beige;
+}
