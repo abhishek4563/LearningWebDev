@@ -33,3 +33,34 @@ span {
     color: azure;
     font-size: 20px;
 }
+
+li a {
+    color: brown;
+}
+
+/* adjacent selector */
+h2+button {
+    color: rgb(212, 24, 33);
+}
+
+/* direct desecentant selector */
+
+section>span {
+    background-color: darksalmon;
+}
+
+/*pseudo classes */
+button:hover {
+    background-color: rgb(51, 53, 117);
+    text-decoration-style: double;
+}
+
+/* pseudo element */
+h2::first-letter {
+    font-size: 40px;
+    color: rgba(0, 191, 255, 0.685);
+}
+
+::selection {
+    color: rgb(27, 71, 71);
+}
