@@ -1,0 +1,33 @@
+section {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+#alpha {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(100, 25, 75, 0.3);
+}
+
+
+#opacity {
+    background-color: rgba(25, 75, 100, 0.3);
+    opacity: 0.3;
+
+}
+
+#circle {
+    height: 350px;
+    width: 350px;
+    background-color: aqua;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+
+#circle:hover {
+    background-color: rgba(25, 75, 100, 0.3);
+    border-radius: 0%;
+
+}
