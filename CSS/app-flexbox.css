@@ -26,3 +26,22 @@ h1 {
     height: 200px;
     border: solid 2px;
 }
+
+main {
+    width: 80%;
+    height: 500px;
+    border: 5px solid black;
+    display: flex;
+
+}
+
+main .sidebar {
+    background-color: azure;
+    border: 2px solid rgb(185, 21, 21);
+    flex: 2 1 250px;
+}
+
+main .maincontent {
+    background-color: blue;
+    flex: 1 2 500px;
+}

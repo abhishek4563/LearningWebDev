@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+}
+
+nav {
+    font-size: 1.5em;
+}
+
+ul,
+li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+stacking to get multiple colors over different ranges, other option would have been to use AND */
+@media (min-width: 1000px) {
+    h1 {
+        color: brown;
+    }
+}
+
+@media (min-width: 800) {
+    h1 {
+        color: rgb(75, 51, 147);
+    }
+}
+
+@media (min-width: 700px) {
+    h1 {
+        color: rgb(165, 42, 42);
+    }
+}
+
+@media (orientation : landscape) {
+    body {
+        background-color: yellow;
+    }
+
+}
