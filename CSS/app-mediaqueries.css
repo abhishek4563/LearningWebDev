@@ -9,6 +9,8 @@ h1 {
 
 nav {
     font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul,
@@ -16,6 +18,16 @@ li {
     display: inline;
     margin: 0;
     padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    border: solid red 1px;
+    flex-grow: 1;
+    max-width: 50%;
+    /* padding-top: 30px;
+    padding-bottom: 30px;*/
 }
 
 /* 
@@ -26,15 +38,22 @@ stacking to get multiple colors over different ranges, other option would have b
     }
 }
 
-@media (min-width: 800) {
+@media (max-width: 768) {
     h1 {
         color: rgb(75, 51, 147);
     }
 }
 
-@media (min-width: 700px) {
+@media (max-width: 576px) {
     h1 {
         color: rgb(165, 42, 42);
+        font-size: 3rem;
+    }
+
+    nav,
+    nav ul {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
